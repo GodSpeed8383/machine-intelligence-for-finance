@@ -34,7 +34,7 @@ print(results['weights']) # View HRP weights
 
 - `data_preprocessing/`: Sampling and Differentiation.
 - `labeling/`: Triple Barrier logic.
-- `validation/`: Purged K-Fold logic.
+- `validation/`: Purged CV logic.
 - `portfolio/`: Risk parity and allocation.
 - `pipeline.py`: The integrated entry point.
 
