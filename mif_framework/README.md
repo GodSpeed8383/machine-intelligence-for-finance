@@ -2,7 +2,7 @@
 
 This framework is a professional implementation of the methods described in the *Machine Intelligence for Finance* research. It transforms fragmented educational notebooks into a cohesive, production-ready library for financial machine learning.
 
-## 🌟 Key Features
+## Key Features
 
 - **Information Time Sampling**: Implements Tick, Volume, and Dollar bars to eliminate chronological noise.
 - **Fractional Differentiation**: Achieves stationarity while preserving long-term memory of price action.
@@ -10,7 +10,7 @@ This framework is a professional implementation of the methods described in the 
 - **Purged Cross-Validation**: Prevents data leakage in time-series ML using purging and embargoing.
 - **Hierarchical Risk Parity (HRP)**: A robust portfolio allocation method based on hierarchical clustering.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 Ensure you have `pandas`, `numpy`, and `scipy` installed.
@@ -30,7 +30,7 @@ results = pipeline.run(df)
 print(results['weights']) # View HRP weights
 ```
 
-## 🏗️ Architecture
+## Architecture
 
 - `data_preprocessing/`: Sampling and Differentiation.
 - `labeling/`: Triple Barrier logic.
@@ -38,5 +38,3 @@ print(results['weights']) # View HRP weights
 - `portfolio/`: Risk parity and allocation.
 - `pipeline.py`: The integrated entry point.
 
-## 📜 License
-BSD 3-Clause License.
