@@ -38,4 +38,5 @@ print(results['weights']) # View HRP weights
 - `portfolio/`: Risk parity and allocation.
 - `pipeline.py`: The integrated entry point.
 
-
+## 📜 License
+BSD 3-Clause License.
